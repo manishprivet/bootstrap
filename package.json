@@ -1,14 +1,16 @@
 {
   "name": "@manishprivet/bootstrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to bootstrap my projects using my preferences",
+  "repository": "git://github.com/manishprivet/bootstrap.git",
   "main": "src/index.js",
   "bin": {
     "@manishprivet/bootstrap": "./bin/bootstrap",
     "bootstrap": "./bin/bootstrap"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry":"https://npm.pkg.github.com"
   },
   "license": "MIT",
   "dependencies": {
@@ -30,5 +32,10 @@
     "name": "Manish Kumar",
     "email": "me@manishk.dev",
     "url": "https://manishk.dev"
-  }
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ]
 }
