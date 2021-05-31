@@ -1,6 +1,6 @@
 {
   "name": "@manishprivet/bootstrap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI to bootstrap my projects using my preferences",
   "repository": "git://github.com/manishprivet/bootstrap.git",
   "main": "src/index.js",
